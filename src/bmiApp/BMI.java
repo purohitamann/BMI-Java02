@@ -10,6 +10,7 @@ package bmiApp;
  */
 public class BMI {
 
+    // Java Assignment-02 Done!
     /*
  * @Author: Aman Hiran Purohit
  * Date: 2023-02-08 13:39:59 
