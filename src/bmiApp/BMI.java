@@ -123,6 +123,19 @@ public class BMI {
         heightInMeter = height * 0.0254;
         return heightInMeter;
     }
+    
+     // overridden method
+    public String statusBMI() {
+        if (this.calculatedBmiMetric <= 18.5 && this.calculatedBmiMetric >= 0) {
+            return "Underweight";
+        } else if (this.calculatedBmiMetric <= 25 && this.calculatedBmiMetric > 18.5) {
+            return "Normal Weight";
+        } else if (this.calculatedBmiMetric <= 30 && this.calculatedBmiMetric > 25) {
+            return "Overweight";
+        } else {
+            return "Obese";
+        }
+    }
 
     
 
